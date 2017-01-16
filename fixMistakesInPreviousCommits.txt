@@ -1,0 +1,9 @@
+git checkout <bad-commit>
+
+//make changes
+//add changes
+
+git commit --amend
+
+git rebase --onto HEAD <bad-commit> <checked-out-branch>
+
